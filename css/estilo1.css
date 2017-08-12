@@ -1,0 +1,108 @@
+
+        @import url('https://fonts.googleapis.com/css?family=Oswald:400,500,600|Ranga');
+        body {
+             cursor:url("../images/cursor.png"),default;
+             background-image: url("../images/background_space.gif");
+             background-color: #000;
+
+             }
+         .img{
+           height: 238px;
+           width: 250px;
+          border-radius: 50%;
+        border-color: #fff
+        }
+
+
+        h1, h2, h3 {font-family: 'Ranga', cursive;color: #fff;}
+
+        h4, h5, h6, ul, p {font-family: 'Oswald', sans-serif;color: #fff;}
+
+        .link-menu {color: #fff; text-decoration: none;}
+        .link-menu:hover {background-color: #fff; text-decoration: underline;}
+
+        #columnas {
+          column-count: 2;
+          column-gap: 20px;
+          column-rule: 2px dotted #999;
+        }
+
+        .borde-inf {border-bottom: 1px solid #666;}
+
+        .centra-img {background-color: #fff; text-align: center; border: 1px solid #666; border-radius: 10px;}
+
+        .pie {background-color: #0f0; border-top: 1px solid #666; text-align: center;}
+
+
+        *{
+        	margin:0px;
+        	padding:0px;
+        	font-family:oswald;
+          color: #ff0000;
+        }
+
+        div.contenedor{
+        	margin:15px;
+        	width:270px;
+        	height:170px;
+        	background-color: #000;
+        	overflow: hidden;
+        }
+
+        div.imagen{
+        	width:270px;
+        	height:170px;
+        	background-color: #cecece;
+        	overflow: hidden;
+        	-webkit-transition: height .4s;
+        }
+
+        img.imagen{
+        	display: block;
+        	margin:0px auto;
+        	width:270px;
+        	height:170px;
+        	-webkit-transition: margin-top .4s;
+        }
+
+        div.info{
+        	width:270px;
+        	height:0px;
+        	background-color:#fff;
+        	overflow: hidden;
+        	-webkit-transition: height .4s;
+        }
+
+        p.titulo{
+        	margin:5px;
+        	font-size: 1.1em;
+        	color:#d53a61;
+        }
+
+        p.adicional{
+        	color:white;
+        	margin-left: 15px;
+        }
+
+        a.link{
+        	float:right;
+        	margin-top:-25px;
+        	margin-right:5px;
+        	padding:10px 30px;
+        	background-color:#d53a61;
+        	font-size: .8em;
+        	color:white;
+        	text-decoration: none;
+        }
+
+        div.contenedor:hover div.imagen{
+        	height: 0px;
+        }
+
+        div.contenedor:hover div.info{
+        	height:50px;
+        }
+
+        div.contenedor:hover img.imagen{
+        	margin-top:0px;
+        }
